@@ -12,7 +12,18 @@
   text-decoration: none;
 }
 
-
+.body_intro{
+  color: black;
+  margin: 0 auto;
+  width: 1100px;
+  background-color: rgb(255, 255, 255);
+  font-size: medium;
+}
+@media (max-width: 1280px) {
+  .body_intro{
+    width: 100%;
+  }
+}
 
 .main {
   min-height: 100vh;
@@ -40,7 +51,7 @@
  
 .main .video-container img{
   position: absolute;
-  top:0; 
+  top: 70px; 
   left: 0;
   z-index: -1;
   height: 100%;
